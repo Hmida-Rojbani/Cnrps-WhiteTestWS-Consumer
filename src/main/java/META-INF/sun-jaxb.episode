@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2020.09.07 à 09:48:29 AM WAT 
+
+  -->
+  <bindings xmlns:tns="http://www.cnrps.tn/ws/soap/white/models/whitetest" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="tn.cnrps.ws.soap.consume.WhiteTestsClasses"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:StudentRequest">
+      <class ref="tn.cnrps.ws.soap.consume.WhiteTestsClasses.StudentRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:WhiteTestResponse">
+      <class ref="tn.cnrps.ws.soap.consume.WhiteTestsClasses.WhiteTestResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Student">
+      <class ref="tn.cnrps.ws.soap.consume.WhiteTestsClasses.Student"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Exam">
+      <class ref="tn.cnrps.ws.soap.consume.WhiteTestsClasses.Exam"/>
+    </bindings>
+  </bindings>
+</bindings>
